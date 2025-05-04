@@ -21,5 +21,5 @@ if (platform && urls[platform]) window.location.href = "https://" + urls[platfor
 if (!urls[platform]) console.log("[*] There doesn't seem to be such a redirect...");
 
 if (!urls[platform] && window.location.host === "r.kyrowinomg.ru") {
-  window.location.href = "kyrowinomg.ru";
+  window.location.href = "https://kyrowinomg.ru";
 };
