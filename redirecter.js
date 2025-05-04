@@ -13,7 +13,7 @@ const unavailablePage = "google.com";
 
 const platform = window.location.search.split("?r=")[1] || window.location.hash.split("#")[1];
 const urls = {
-  github: "https://github.com/kyrowin"
+  github: "github.com/kyrowin"
 };
 
 if (platform && urls[platform]) window.location.href = "https://" + urls[platform];
